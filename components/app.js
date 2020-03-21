@@ -8,7 +8,8 @@ class App {
     console.error(error);
   }
   handleGetGradesSuccess(grades) {
-    console.log(grades);
+    // console.log(grades);
+    this.gradeTable.updateGrades(grades);
   }
   getGrades() {
     $.ajax({
