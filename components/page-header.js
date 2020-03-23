@@ -4,6 +4,7 @@ class PageHeader {
     this.pageHeader = pageHeader;
   }
   updateAverage(newAverage){
+    this.newAverage = newAverage;
     console.log(newAverage);
   }
 }
