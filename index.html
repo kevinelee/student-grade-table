@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Student Grade Table</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
-</head>
-<body>
-  <table class="table">
-    <header>Student Grade Table</header>
-  <thead>
-    <tr>
-      <th scope="col">Name</th>
-      <th scope="col">Course</th>
-      <th scope="col">Grade</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- <tr>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Grade Table</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <table class="table">
+      <header class="row justify-content-between">
+        <h1 class="col-4">
+          Student Grade Table
+        </h1>
+        <p class="col-4">
+          Average Grade <span>
+            Numerical Value
+          </span>
+        </p>
+      </header>
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Course</th>
+          <th scope="col">Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr>
       <th scope="row">1</th>
       <td>Mark</td>
       <td>Otto</td>
@@ -35,11 +47,11 @@
       <td>the Bird</td>
       <td>@twitter</td>
     </tr> -->
-  </tbody>
-</table>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
-<script src="components/grade-table.js"></script>
-<script src="components/app.js"></script>
-<script src="main.js"></script>
-</body>
+      </tbody>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="components/grade-table.js"></script>
+    <script src="components/app.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
